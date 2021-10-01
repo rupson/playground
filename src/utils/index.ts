@@ -1,1 +1,1 @@
-export * from './stringUtils'
+export * as stringUtils from './stringUtils'

@@ -1,5 +1,5 @@
-import takeFirst3Characters from "./utils/stringUtils"
+import { stringUtils } from "./utils";
 
-const foo = "abcdefgh"
+const foo = "abcdefgh";
 
-takeFirst3Characters(foo)
+stringUtils.default(foo);
