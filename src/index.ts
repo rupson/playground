@@ -2,7 +2,7 @@
 
 import * as R from "ramda";
 
-export type Input = Record<string, string>
+export type Input = Record<string, string>;
 
 const combineOnlyArrays = R.cond([
   [Array.isArray, R.concat],
@@ -14,8 +14,7 @@ const combineObjects = (arr) =>
 
 const makeArray = (x) => [x];
 
-const isConcatableKey = (key) =>
-  !["a", "b", "c"].includes(key);
+const isConcatableKey = (key) => !["a", "b", "c"].includes(key);
 
 const mapperByKey = (value, key) =>
   isConcatableKey(key) ? makeArray(value) : value;
