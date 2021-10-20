@@ -1,7 +1,7 @@
-import { myFunction } from "."
+import { repeat } from ".";
 
-describe('it does something', () => {
-  it('says hello', () => {
-    expect(myFunction()).toEqual('hello world')
-  })
-})
+describe("repeat", () => {
+  it("repeats a variable", () => {
+    expect(repeat("x")(5)).toMatchObject(["x", "x", "x", "x", "x"]);
+  });
+});
