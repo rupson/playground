@@ -1,2 +1,7 @@
-node_modules
-dist
+# JS node stuff
+typescript/node_modules
+typescript/dist
+
+# Haskell build stuff
+*.o
+*.hi

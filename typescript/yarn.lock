@@ -2107,6 +2107,11 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
+remeda@^0.0.30:
+  version "0.0.30"
+  resolved "https://registry.yarnpkg.com/remeda/-/remeda-0.0.30.tgz#34a80efdab9053df2d59ed10cac20c4ca5bb1270"
+  integrity sha512-ygbf/pXioUbbNOYSRFu6oUEa72HiIcsiS6CFuhWEwoIByoyNzzofm/cVgHEnfQVeSkwTGHceuDOEHo5hHFv9Uw==
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
