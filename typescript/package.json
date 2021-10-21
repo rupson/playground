@@ -6,7 +6,8 @@
 	"scripts": {
 		"test": "jest",
 		"test:watch": "jest --watch",
-		"start": "tsc && node dist/index.js"
+		"lamp": "tsc && node dist/lamp.js",
+		"lampWithRemeda": "tsc && node dist/lampWithRemeda.js"
 	},
 	"devDependencies": {
 		"@types/jest": "^27.0.1",
