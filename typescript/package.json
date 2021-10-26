@@ -7,7 +7,8 @@
 		"test": "jest",
 		"test:watch": "jest --watch",
 		"lamp": "tsc && node dist/lamp.js",
-		"lampWithRemeda": "tsc && node dist/lampWithRemeda.js"
+		"lampWithRemeda": "tsc && node dist/lampWithRemeda.js",
+		"lampWithInfiniteRecursion": "tsc && node --prof dist/lampWithInfiniteRecursion.js"
 	},
 	"devDependencies": {
 		"@types/jest": "^27.0.1",
