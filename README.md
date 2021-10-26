@@ -1,0 +1,1 @@
+docker run -it recursive-js:main sh
